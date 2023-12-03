@@ -1,20 +1,15 @@
-
 var letters = [];
-var word = "Kayak";
+var word = "";
 var rword = "";
 
 for (i = 0; i < word.length; i++) {
   letters.push(word[i]);
 }
-
-
 for (i = 0; i < word.length; i++) {
   rword += letters.pop();
 }
-
-
-if ((rword == word) || (word =="") || (word.length==0) ){
-  console.log( rword, "is a palindrom");
+if (rword === word || word == "" || word.indexOf == 0) {
+  console.log("it is a palindrom");
 } else {
-  console.log( rword, "is not a palindrom");
+  console.log("it is not a palindrom");
 }
